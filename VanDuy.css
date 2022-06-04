@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul  li {
+    list-style: none;
+    display: inline;
+    color: #fff;
+    padding: 10px 0px 10px 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+ul{
+    margin-right:200px;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    position: fixed;
+    height: 44px;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.vanduy{
+    font-size:50px;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#fff;
+    margin-left: 100px;
+}
+.picture{
+    background-image: url(/img/anhnenweb.jpg);
+    background-attachment : fixed;
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin:auto;
+}
+.picture h1, .picture h2{
+    color:#fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.picture h1{
+    font-size: 100px;
+}
+.picture h2{
+    font-size: 50px;
+}
+.about{
+    height: 655.396px;
+    width: 100vw;
+    padding: 64px 0px 0px;
+}
+.about-content-full{
+    background-color: rgb(255, 255, 255);
+    width: 1020px;
+    height: 524.396px;
+    padding: 64px 48px;
+    margin: 0 auto;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    display:flex;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.about-content-child-1 {
+    padding: 0px 12px;
+    height: 498px;
+    width: 524.396px;
+    display: flex;
+    flex-direction: column;
+}
+.about-content-child-1-imginfo{
+    display: flex;
+    justify-content: space-around;
+    width: 522px;
+    height: 182px;
+    margin-left: -25px;
+}
+.about-content-child-1-info{
+    width: 280px;
+    height: 182px;
+}
+.about-content-child-1 img {
+    width: 150px;
+}
+.about-content-child-1-info span {
+    font-size: large !important;
+    font-weight: 600 !important;
+    margin-bottom: 5px;
+}
+.about-content-child-1-info p{
+    color: #4e4e4e;
+    margin-bottom: 19px;
+}
+.progress{
+    width: 498px;
+    height: 11.198px;
+    display:flex;
+    background-color: #cde1f8;
+    margin-bottom: 7px;
+}
+.progress-bar-1{
+    height: 11.198px;
+    width: 348.6px;
+    background-color: #0078ff;
+}
+.progress-bar-2{
+    height: 11.198px;
+    width: 249px;
+    background-color: #0078ff;
+}.progress-bar-3{
+    height: 11.198px;
+    width: 49.8px;
+    background-color: #0078ff;
+}.progress-bar-4{
+    height: 11.198px;
+    width: 49.8px;
+    background-color: #0078ff;
+}
+.about-content-child-1-skill{
+    height: 272.792px;
+    width: 498px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.about-content-child-2{
+    height: 524.396px;
+    width: 498px;
+}
+.title-left{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.title-left-underlined{
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.about-content-child-2{
+    margin-left: 10px;
+}
+.paragraph{
+    color: #4e4e4e;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.paragraph p{
+    margin-bottom: 16px;
+}
+.work{
+    width: 100vw;
+    height: 671.896px;
+    padding-top: 64px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+.work-portfolio{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 7px;
+}
+.work-underline-portfolio{
+    width:200px;
+    height: 5px;
+    background-color: #0078ff;
+    margin:auto;
+}
+.content{
+    height: 360px;
+    width: 100vw;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.content-1-picture img , .content-2-picture img , .content-3-picture img {
+    height: 300px;
+}
+.content span{
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 20px; 
+    display:block;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.content-1, .content-2, .content-3{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+.contact{
+    height: 475.188px;
+    width: 1020px;
+    margin:auto;
+    padding: 48px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    display:flex;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.contact-1, .contact-2 {
+    width: 498px;
+    height: 475.188px;
+    padding: 0px 12px;
+}
+.contact-1-title{
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+.contact-1-title-underline{
+    height: 3px;
+    width: 100px;
+    background-color: #0078ff;
+}
+.contact-1-container{
+    width: 522px;
+    height: 388.792px;
+    margin: 0px -12px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.contact-1-container-yourname, .contact-1-container-youremail{
+    height: 21px;
+    width: 466px;
+    padding: 10px 15px;
+}
+.contact-1-container-yourname{
+    margin-top: 40px;
+}
+.contact-1-container-message{
+    width: 466px;
+    height: 105px;
+    padding: 10px 15px;
+}
+.contact-1-container-button{
+    width: 200.365px;
+    height: 60.792px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color:#fff;
+    border-radius: 5rem;
+    background-color: #0078ff;
+    font-size: 20px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+.contact-2-title{
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+.contact-2-title-underline{
+    height: 3px;
+    width: 100px;
+    background-color: #0078ff;
+}
+.contact-2-paragraph{
+    color: #4e4e4e;
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+
+
+
+
+
